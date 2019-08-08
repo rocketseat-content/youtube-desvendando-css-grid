@@ -36,7 +36,7 @@ Vamos separar em 2 grupos:
   - grid-column-gap
 - grid-template-areas;
   
-... e mais 4 propriedades e **alinhamento**
+... e mais 4 propriedades e [**alinhamento**!](https://github.com/Rocketseat/youtube-desvendando-css-grid/blob/master/Alinhamento.md)
 
 
 ---
@@ -50,5 +50,5 @@ Vamos separar em 2 grupos:
   - grid-row-end
 - grid-area
 
-... e mais 2 propriedades de **alinhamento**
+... e mais 2 propriedades de [**alinhamento**!](https://github.com/Rocketseat/youtube-desvendando-css-grid/blob/master/Alinhamento.md)
 
