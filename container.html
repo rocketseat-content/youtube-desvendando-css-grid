@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #7159c1;
+      }
+
+      .container {
+        display: grid;
+
+        /*  usamos o grid-template como atalho para
+            grid-template-rows/grid-template-columns */
+        grid-template: 20vh 70vh 10vh/3fr 1fr;
+
+        /*
+          grid-template-rows: 20vh 70vh 10vh;
+          grid-template-columns: 3fr 1fr;
+        */
+
+        /*  usamos grid-gap como um atalho para: 
+            grid-row-gap / grid-column-gap */
+        grid-gap: 20px;
+
+        /* 
+          grid-row-gap: 20px;
+          grid-column-gap: 20px;
+        */
+      }
+
+      header {
+        background: yellow;
+        height: 100px;
+      }
+
+      main {
+        background: blue;
+        height: 100px;
+      }
+
+      aside {
+        background: green;
+        height: 100px;
+      }
+
+      footer {
+        background: red;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header></header>
+      <main></main>
+      <aside></aside>
+      <footer></footer>
+    </div>
+  </body>
+</html>
