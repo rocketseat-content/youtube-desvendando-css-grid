@@ -25,9 +25,9 @@ O **eixo x** é o posicionamento horizontal, da esquerda para a direita.
 
 O **eixo y** é o posicionamento vertical, de cima para baixo
 
-Justify trabalhará o eixo x.
+`Justify` trabalhará o eixo x.
 
-Align trabalhará o eixo y.
+`Align` trabalhará o eixo y.
 
 ---
 
